@@ -3,9 +3,9 @@ pipeline {
     stages {      
         stage('Echo') {
             steps {
-                echo 'Huehuehehu'
+                echo 'Proverka raz'
                 echo pwd()
-                echo 'Tretiy commit'
+                echo 'Proverka dva'
             }
         }
     }
