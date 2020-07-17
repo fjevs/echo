@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Huehuehehu'
                 echo pwd()
+                echo 'Tretiy commit'
             }
         }
     }
