@@ -3,9 +3,10 @@ pipeline {
     stages {      
         stage('Echo') {
             steps {
-                echo 'Proverka raz'
+				echo 'Proverka5'
+                echo 'Proverka4'
+                cd /var
                 echo pwd()
-                echo 'Proverka dva'
             }
         }
     }
