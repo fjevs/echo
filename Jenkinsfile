@@ -3,8 +3,8 @@ pipeline {
     stages {      
         stage('Echo') {
             steps {
-                echo 'Proverka4'
-                echo 'Proverka5'
+                echo '123'
+                echo '456'
                 echo pwd()
             }
         }
