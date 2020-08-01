@@ -5,7 +5,7 @@ pipeline {
             steps {
 				echo 'Proverka5'
                 echo 'Proverka4'
-                cd /var
+                cd var
                 echo pwd()
             }
         }
