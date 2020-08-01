@@ -5,7 +5,10 @@ pipeline {
             steps {
                 echo 'Proverka4'
                 echo 'Proverka5'
-                echo "Rabochaya direktoriya" $(pwd)
+                echo pwd()
+                for (i in 0..9) { 
+					print i 
+				}
             }
         }
     }
