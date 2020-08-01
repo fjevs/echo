@@ -3,10 +3,9 @@ pipeline {
     stages {      
         stage('Echo') {
             steps {
-				echo 'Proverka5'
                 echo 'Proverka4'
-                cd var
-                echo pwd()
+                echo 'Proverka5'
+                echo "Rabochaya direktoriya" $(pwd)
             }
         }
     }
